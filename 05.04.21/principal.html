@@ -10,18 +10,32 @@
   crossorigin="anonymous">
 </head>
 <body>
-  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="Imagenesprincipal/ferraris.jpg" class="d-block w-100" alt="Auto ferrari" height="500px">
-      </div>
-      <div class="carousel-item">
-        <img src="Imagenesprincipal/McLaren.jpg" class="d-block w-100" alt="Auto McLaren" height="500px">
-      </div>
-      <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="...">
+<div class="container">
+  <div class="row"> 
+    <div class="col-12">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Imagenesprincipal/ferraris.jpg" class="d-block w-100" alt="ferraris" height="550px">
+          </div>
+          <div class="carousel-item">
+            <img src="Imagenesprincipal/McLaren.jpg" class="d-block w-100" alt="McLaren" height="550px">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden" style="color: black;">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden" style="color: black;">Siguiente</span>
+        </button>
       </div>
     </div>
   </div>
+</div>
 </body>
 </html>
